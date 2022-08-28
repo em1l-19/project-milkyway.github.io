@@ -1,0 +1,100 @@
+h1, h2{
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 2.5rem;
+}
+h3, h4, h5, h6, p{
+  font-family: 'Prompt', sans-serif;
+  font-weight: bold;
+}
+body{
+  text-align: center;
+}
+
+/* Navigation bar */
+.navigation-bar {
+  width: 70%;
+  margin-left: auto;
+  padding: 1rem 1rem;
+  opacity: 0.8;
+}
+.toggle-sec{
+  color: #a9a9a9;
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+}
+.rocket{
+  width: 2.5rem;
+  margin-right: 1rem;
+}
+@media (max-width: 1560px) {
+  .navigation-bar {
+    width: 100%;
+  }
+}
+
+@media (min-width: 400px) {
+  .background-img {
+    background-image: url(http://cdn.eso.org/images/screen/2019_06_29_Dishes-CC.jpg);
+    background-size: 100% auto;
+  }
+}
+
+@media (min-width: 999px) {
+  .background-img {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9f/Milky_Way_%28262681609%29.jpeg);
+    background-size: 100% auto;
+  }
+}
+/* Front Page */
+
+.front-text{
+  padding: 10% 10% 10% 4%;
+  text-align: right;
+}
+.col-img{
+  padding: 10% 4% 10% 10%;
+}
+.img-planet{
+  width: 100%;
+}
+.quote{
+  padding-top: 2rem;
+  font-family: 'Prompt', sans-serif;
+}
+@media (max-width: 999px) {
+  .col-img{
+    padding: 15% 5% 5% 5%;
+  }
+  .front-text{
+    padding: 5%;
+    text-align: center;
+  }
+}
+/* Stays */
+.stays{
+  background-color: #3f3f3f;
+  padding: 4% 10%;
+}
+.stay-head{
+  padding-bottom: 4rem;
+  padding-top: 2rem;
+}
+.img-stay{
+  width: 60%;
+  margin: 0 auto 1.5rem;
+  display: block;
+}
+.btn{
+  margin: 1.5rem auto;
+}
+.card{
+  background-color: #D8D2CB;
+}
+
+.card-header{
+  background-color: #D1D1D1;
+}
+.text{
+  font-size: 120%;
+}
