@@ -1,7 +1,7 @@
 h1, h2{
   color: white;
   font-family: 'Merriweather', serif;
-  font-size: 2.5rem;
+  font-size: 124%;
 }
 h3, h4, h5, h6, p{
   font-family: 'Prompt', sans-serif;
@@ -9,6 +9,9 @@ h3, h4, h5, h6, p{
 }
 body{
   text-align: center;
+}
+.background-img{
+  background-image: url(https://images.unsplash.com/photo-1538370965046-79c0d6907d47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80);
 }
 
 /* Navigation bar */
@@ -33,17 +36,17 @@ body{
   }
 }
 
-@media (min-width: 400px) {
+@media (max-width: 400px) {
   .background-img {
     background-image: url(http://cdn.eso.org/images/screen/2019_06_29_Dishes-CC.jpg);
-    background-size: 100% auto;
+    background-size: auto;
   }
 }
 
-@media (min-width: 999px) {
+@media (min-width: 401px) and (max-width: 999px) {
   .background-img {
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9f/Milky_Way_%28262681609%29.jpeg);
-    background-size: 100% auto;
+    background-size: auto;
   }
 }
 /* Front Page */
@@ -90,6 +93,7 @@ body{
 }
 .card{
   background-color: #D8D2CB;
+  margin-bottom: 1rem;
 }
 
 .card-header{
