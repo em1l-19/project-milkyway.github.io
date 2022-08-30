@@ -1,7 +1,7 @@
 h1, h2{
   color: white;
   font-family: 'Merriweather', serif;
-  font-size: 124%;
+  font-size: 2.5rem;
 }
 h3, h4, h5, h6, p{
   font-family: 'Prompt', sans-serif;
@@ -15,6 +15,9 @@ body{
 }
 
 /* Navigation bar */
+.headline{
+  font-size: 124%;
+}
 .navigation-bar {
   width: 70%;
   margin-left: auto;
