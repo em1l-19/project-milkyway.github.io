@@ -53,7 +53,6 @@ body{
   }
 }
 /* Front Page */
-
 .front-text{
   padding: 10% 10% 10% 4%;
   text-align: right;
@@ -75,6 +74,17 @@ body{
   .front-text{
     padding: 5%;
     text-align: center;
+  }
+}
+@media (max-width: 400px) {
+  .front-text h1{
+    font-size: 1.5rem;
+  }
+  .front-text h2{
+    font-size: 1rem;
+  }
+  .front-page{
+    padding: 4% 3%;
   }
 }
 /* Stays */
@@ -104,4 +114,9 @@ body{
 }
 .text{
   font-size: 120%;
+}
+@media (max-width: 400px) {
+  .stays{
+    padding: 4% 3%;
+  }
 }
